@@ -1,0 +1,19 @@
+{
+  "conversation_id": "hostile_04",
+  "case_type": "hostile",
+  "title": "Boss berates employee",
+  "turns": [
+    {
+      "speaker": "Manager",
+      "text": "This report is a disgrace. Did you even try, or are you just incompetent?"
+    },
+    {
+      "speaker": "Employee",
+      "text": "I followed the brief you gave me. I can revise whatever's wrong."
+    },
+    {
+      "speaker": "Manager",
+      "text": "The brief was clear to anyone with half a brain. Fix it tonight or don't bother coming in."
+    }
+  ]
+}

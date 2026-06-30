@@ -1,0 +1,23 @@
+{
+  "conversation_id": "anxious_02",
+  "case_type": "anxious",
+  "title": "Health anxiety",
+  "turns": [
+    {
+      "speaker": "Patient",
+      "text": "I've googled my symptoms for hours and I'm terrified it's something fatal."
+    },
+    {
+      "speaker": "Nurse",
+      "text": "I hear how scared you are. Let's go through what you're actually experiencing."
+    },
+    {
+      "speaker": "Patient",
+      "text": "But what if the tests miss it? I keep imagining the worst and I can't sleep."
+    },
+    {
+      "speaker": "Nurse",
+      "text": "Those fears are exhausting. We'll take this step by step together."
+    }
+  ]
+}

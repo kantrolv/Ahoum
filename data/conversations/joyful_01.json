@@ -1,0 +1,19 @@
+{
+  "conversation_id": "joyful_01",
+  "case_type": "joyful",
+  "title": "Job offer celebration",
+  "turns": [
+    {
+      "speaker": "Priya",
+      "text": "I got the job!! I actually got it! I can't stop smiling!"
+    },
+    {
+      "speaker": "Friend",
+      "text": "That's incredible! I'm so happy for you, you earned every bit of it!"
+    },
+    {
+      "speaker": "Priya",
+      "text": "I'm over the moon. Let's celebrate this weekend, my treat!"
+    }
+  ]
+}

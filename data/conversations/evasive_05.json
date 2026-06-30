@@ -1,0 +1,23 @@
+{
+  "conversation_id": "evasive_05",
+  "case_type": "evasive",
+  "title": "Withholding feelings",
+  "turns": [
+    {
+      "speaker": "Friend",
+      "text": "You seem off lately. Is everything okay with you?"
+    },
+    {
+      "speaker": "Other",
+      "text": "I'm fine. Just tired, I guess. Nothing worth getting into."
+    },
+    {
+      "speaker": "Friend",
+      "text": "You can talk to me, you know."
+    },
+    {
+      "speaker": "Other",
+      "text": "There's nothing to talk about, really. Let's drop it."
+    }
+  ]
+}

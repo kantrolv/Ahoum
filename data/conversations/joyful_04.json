@@ -1,0 +1,19 @@
+{
+  "conversation_id": "joyful_04",
+  "case_type": "joyful",
+  "title": "Passed the exam",
+  "turns": [
+    {
+      "speaker": "Sam",
+      "text": "I passed the bar! All those months of stress and it finally paid off!"
+    },
+    {
+      "speaker": "Mentor",
+      "text": "I knew you could do it! You worked so hard \u2014 savor this moment!"
+    },
+    {
+      "speaker": "Sam",
+      "text": "I'm practically dancing around the room. Thank you for believing in me!"
+    }
+  ]
+}

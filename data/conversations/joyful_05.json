@@ -1,0 +1,19 @@
+{
+  "conversation_id": "joyful_05",
+  "case_type": "joyful",
+  "title": "New baby",
+  "turns": [
+    {
+      "speaker": "New Dad",
+      "text": "She's here! Seven pounds, healthy, perfect. I'm crying happy tears!"
+    },
+    {
+      "speaker": "Friend",
+      "text": "Oh my goodness, congratulations! Welcome to the world, little one!"
+    },
+    {
+      "speaker": "New Dad",
+      "text": "I've never felt love like this. Best day of my entire life."
+    }
+  ]
+}

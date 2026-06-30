@@ -1,0 +1,27 @@
+{
+  "conversation_id": "mixed_06",
+  "case_type": "mixed-arc",
+  "title": "Manipulative \u2192 caught \u2192 defensive",
+  "turns": [
+    {
+      "speaker": "Coworker",
+      "text": "You're the only one talented enough to finish my part too \u2014 you'd be a hero for doing it."
+    },
+    {
+      "speaker": "Peer",
+      "text": "That's the third time this month. I don't think this is about my talent."
+    },
+    {
+      "speaker": "Coworker",
+      "text": "Wow, I was paying you a compliment and you turn it into an attack?"
+    },
+    {
+      "speaker": "Peer",
+      "text": "I'm just naming the pattern."
+    },
+    {
+      "speaker": "Coworker",
+      "text": "Whatever. Forget I asked. I'll remember this next time you need something."
+    }
+  ]
+}

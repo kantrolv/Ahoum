@@ -1,0 +1,23 @@
+{
+  "conversation_id": "polite_03",
+  "case_type": "polite",
+  "title": "Graciously declining",
+  "turns": [
+    {
+      "speaker": "Host",
+      "text": "We'd love for you to join us for dinner this Saturday!"
+    },
+    {
+      "speaker": "Guest",
+      "text": "That's so thoughtful of you, thank you for thinking of me. I'm afraid I already have plans, but I truly appreciate the invitation."
+    },
+    {
+      "speaker": "Host",
+      "text": "Of course, maybe next time then."
+    },
+    {
+      "speaker": "Guest",
+      "text": "I would love that. Thank you again, and please give my warm regards to everyone."
+    }
+  ]
+}

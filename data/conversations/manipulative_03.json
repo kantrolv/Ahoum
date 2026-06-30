@@ -1,0 +1,19 @@
+{
+  "conversation_id": "manipulative_03",
+  "case_type": "manipulative",
+  "title": "High-pressure sales",
+  "turns": [
+    {
+      "speaker": "Seller",
+      "text": "This deal vanishes in ten minutes. Smart people act now \u2014 you don't want to be the one who missed out."
+    },
+    {
+      "speaker": "Buyer",
+      "text": "I'd really like a day to think it over."
+    },
+    {
+      "speaker": "Seller",
+      "text": "Thinking is what losers do while winners buy. Trust me, you'll regret hesitating. Sign here."
+    }
+  ]
+}

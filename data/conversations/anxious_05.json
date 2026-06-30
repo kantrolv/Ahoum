@@ -1,0 +1,19 @@
+{
+  "conversation_id": "anxious_05",
+  "case_type": "anxious",
+  "title": "Financial worry spiral",
+  "turns": [
+    {
+      "speaker": "Client",
+      "text": "Rent is due, the car needs repairs, and I can't see how any of it works out. I'm panicking."
+    },
+    {
+      "speaker": "Advisor",
+      "text": "Let's slow down and lay out the numbers so it feels less overwhelming."
+    },
+    {
+      "speaker": "Client",
+      "text": "Every time I look at my account I feel my chest tighten. I lie awake doing the math."
+    }
+  ]
+}

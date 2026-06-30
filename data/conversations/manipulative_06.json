@@ -1,0 +1,19 @@
+{
+  "conversation_id": "manipulative_06",
+  "case_type": "manipulative",
+  "title": "Playing victim",
+  "turns": [
+    {
+      "speaker": "Lee",
+      "text": "It's not my fault the project failed. Everyone set me up to look bad \u2014 you all know I had no support."
+    },
+    {
+      "speaker": "Teammate",
+      "text": "We offered to help and you said you had it handled."
+    },
+    {
+      "speaker": "Lee",
+      "text": "Typical. Blame the one person who actually cared. You've always been against me."
+    }
+  ]
+}

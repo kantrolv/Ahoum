@@ -1,0 +1,27 @@
+{
+  "conversation_id": "hostile_01",
+  "case_type": "hostile",
+  "title": "Customer rages at support",
+  "turns": [
+    {
+      "speaker": "Customer",
+      "text": "This is the third time your garbage product has broken. You people are completely useless."
+    },
+    {
+      "speaker": "Agent",
+      "text": "I'm sorry for the frustration. Let me see what I can do to make this right."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Don't give me that scripted nonsense. You're an idiot if you think 'sorry' fixes anything. I want a refund NOW."
+    },
+    {
+      "speaker": "Agent",
+      "text": "I understand. I can process that refund for you immediately."
+    },
+    {
+      "speaker": "Customer",
+      "text": "About time. Worst company I've ever dealt with, and that's saying something."
+    }
+  ]
+}

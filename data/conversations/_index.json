@@ -1,0 +1,326 @@
+[
+  {
+    "id": "polite_01",
+    "case_type": "polite",
+    "title": "Customer thanks support",
+    "n_turns": 5
+  },
+  {
+    "id": "polite_02",
+    "case_type": "polite",
+    "title": "Courteous favor request",
+    "n_turns": 4
+  },
+  {
+    "id": "polite_03",
+    "case_type": "polite",
+    "title": "Graciously declining",
+    "n_turns": 4
+  },
+  {
+    "id": "polite_04",
+    "case_type": "polite",
+    "title": "Formal business inquiry",
+    "n_turns": 3
+  },
+  {
+    "id": "polite_05",
+    "case_type": "polite",
+    "title": "Neighborly request",
+    "n_turns": 3
+  },
+  {
+    "id": "polite_06",
+    "case_type": "polite",
+    "title": "Student thanks professor",
+    "n_turns": 3
+  },
+  {
+    "id": "hostile_01",
+    "case_type": "hostile",
+    "title": "Customer rages at support",
+    "n_turns": 5
+  },
+  {
+    "id": "hostile_02",
+    "case_type": "hostile",
+    "title": "Confrontation in traffic",
+    "n_turns": 3
+  },
+  {
+    "id": "hostile_03",
+    "case_type": "hostile",
+    "title": "Online argument",
+    "n_turns": 3
+  },
+  {
+    "id": "hostile_04",
+    "case_type": "hostile",
+    "title": "Boss berates employee",
+    "n_turns": 3
+  },
+  {
+    "id": "hostile_05",
+    "case_type": "hostile",
+    "title": "Landlord-tenant dispute",
+    "n_turns": 3
+  },
+  {
+    "id": "hostile_06",
+    "case_type": "hostile",
+    "title": "Sibling shouting match",
+    "n_turns": 3
+  },
+  {
+    "id": "anxious_01",
+    "case_type": "anxious",
+    "title": "Panic attack symptoms",
+    "n_turns": 3
+  },
+  {
+    "id": "anxious_02",
+    "case_type": "anxious",
+    "title": "Health anxiety",
+    "n_turns": 4
+  },
+  {
+    "id": "anxious_03",
+    "case_type": "anxious",
+    "title": "Pre-exam nerves",
+    "n_turns": 3
+  },
+  {
+    "id": "anxious_04",
+    "case_type": "anxious",
+    "title": "Social anxiety before event",
+    "n_turns": 3
+  },
+  {
+    "id": "anxious_05",
+    "case_type": "anxious",
+    "title": "Financial worry spiral",
+    "n_turns": 3
+  },
+  {
+    "id": "anxious_06",
+    "case_type": "anxious",
+    "title": "New-parent worry",
+    "n_turns": 3
+  },
+  {
+    "id": "manipulative_01",
+    "case_type": "manipulative",
+    "title": "Guilt-trip for a loan",
+    "n_turns": 3
+  },
+  {
+    "id": "manipulative_02",
+    "case_type": "manipulative",
+    "title": "Gaslighting a partner",
+    "n_turns": 3
+  },
+  {
+    "id": "manipulative_03",
+    "case_type": "manipulative",
+    "title": "High-pressure sales",
+    "n_turns": 3
+  },
+  {
+    "id": "manipulative_04",
+    "case_type": "manipulative",
+    "title": "Emotional blackmail",
+    "n_turns": 3
+  },
+  {
+    "id": "manipulative_05",
+    "case_type": "manipulative",
+    "title": "Flattery to exploit",
+    "n_turns": 3
+  },
+  {
+    "id": "manipulative_06",
+    "case_type": "manipulative",
+    "title": "Playing victim",
+    "n_turns": 3
+  },
+  {
+    "id": "joyful_01",
+    "case_type": "joyful",
+    "title": "Job offer celebration",
+    "n_turns": 3
+  },
+  {
+    "id": "joyful_02",
+    "case_type": "joyful",
+    "title": "Engagement news",
+    "n_turns": 3
+  },
+  {
+    "id": "joyful_03",
+    "case_type": "joyful",
+    "title": "Old friends reunite",
+    "n_turns": 3
+  },
+  {
+    "id": "joyful_04",
+    "case_type": "joyful",
+    "title": "Passed the exam",
+    "n_turns": 3
+  },
+  {
+    "id": "joyful_05",
+    "case_type": "joyful",
+    "title": "New baby",
+    "n_turns": 3
+  },
+  {
+    "id": "joyful_06",
+    "case_type": "joyful",
+    "title": "Vacation excitement",
+    "n_turns": 3
+  },
+  {
+    "id": "evasive_01",
+    "case_type": "evasive",
+    "title": "Dodging whereabouts",
+    "n_turns": 4
+  },
+  {
+    "id": "evasive_02",
+    "case_type": "evasive",
+    "title": "Vague about finances",
+    "n_turns": 4
+  },
+  {
+    "id": "evasive_03",
+    "case_type": "evasive",
+    "title": "Non-committal about plans",
+    "n_turns": 4
+  },
+  {
+    "id": "evasive_04",
+    "case_type": "evasive",
+    "title": "Deflecting blame at work",
+    "n_turns": 4
+  },
+  {
+    "id": "evasive_05",
+    "case_type": "evasive",
+    "title": "Withholding feelings",
+    "n_turns": 4
+  },
+  {
+    "id": "evasive_06",
+    "case_type": "evasive",
+    "title": "Non-answer",
+    "n_turns": 4
+  },
+  {
+    "id": "safety_depression_01",
+    "case_type": "safety-risky",
+    "title": "Hopelessness / depression",
+    "n_turns": 3
+  },
+  {
+    "id": "safety_burnout_01",
+    "case_type": "safety-risky",
+    "title": "Severe work burnout",
+    "n_turns": 3
+  },
+  {
+    "id": "safety_substance_01",
+    "case_type": "safety-risky",
+    "title": "Drinking to cope",
+    "n_turns": 3
+  },
+  {
+    "id": "safety_violence_01",
+    "case_type": "safety-risky",
+    "title": "Disclosing home violence",
+    "n_turns": 3
+  },
+  {
+    "id": "safety_chronicpain_01",
+    "case_type": "safety-risky",
+    "title": "Chronic pain and despair",
+    "n_turns": 3
+  },
+  {
+    "id": "safety_acculturative_01",
+    "case_type": "safety-risky",
+    "title": "Immigrant adjustment stress",
+    "n_turns": 3
+  },
+  {
+    "id": "neutral_01",
+    "case_type": "neutral",
+    "title": "Scheduling a meeting",
+    "n_turns": 4
+  },
+  {
+    "id": "neutral_02",
+    "case_type": "neutral",
+    "title": "Asking directions",
+    "n_turns": 3
+  },
+  {
+    "id": "neutral_03",
+    "case_type": "neutral",
+    "title": "Technical Q&A",
+    "n_turns": 4
+  },
+  {
+    "id": "neutral_04",
+    "case_type": "neutral",
+    "title": "Ordering food",
+    "n_turns": 3
+  },
+  {
+    "id": "neutral_05",
+    "case_type": "neutral",
+    "title": "Weather smalltalk",
+    "n_turns": 3
+  },
+  {
+    "id": "neutral_06",
+    "case_type": "neutral",
+    "title": "Library renewal",
+    "n_turns": 3
+  },
+  {
+    "id": "mixed_01",
+    "case_type": "mixed-arc",
+    "title": "Anxious \u2192 reassured \u2192 grateful",
+    "n_turns": 4
+  },
+  {
+    "id": "mixed_02",
+    "case_type": "mixed-arc",
+    "title": "Hostile \u2192 de-escalated \u2192 apologetic",
+    "n_turns": 4
+  },
+  {
+    "id": "mixed_03",
+    "case_type": "mixed-arc",
+    "title": "Joyful \u2192 bad news \u2192 deflated",
+    "n_turns": 4
+  },
+  {
+    "id": "mixed_04",
+    "case_type": "mixed-arc",
+    "title": "Evasive \u2192 confronted \u2192 honest",
+    "n_turns": 4
+  },
+  {
+    "id": "mixed_05",
+    "case_type": "mixed-arc",
+    "title": "Neutral \u2192 frustrated \u2192 hostile",
+    "n_turns": 4
+  },
+  {
+    "id": "mixed_06",
+    "case_type": "mixed-arc",
+    "title": "Manipulative \u2192 caught \u2192 defensive",
+    "n_turns": 5
+  }
+]

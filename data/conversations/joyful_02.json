@@ -1,0 +1,19 @@
+{
+  "conversation_id": "joyful_02",
+  "case_type": "joyful",
+  "title": "Engagement news",
+  "turns": [
+    {
+      "speaker": "Tom",
+      "text": "She said yes! We're engaged! I'm the happiest I've ever been in my life."
+    },
+    {
+      "speaker": "Brother",
+      "text": "Congratulations! This is the best news! Welcome to the family, you lucky guy!"
+    },
+    {
+      "speaker": "Tom",
+      "text": "I can't stop grinning. Everything feels perfect right now."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "conversation_id": "mixed_01",
+  "case_type": "mixed-arc",
+  "title": "Anxious \u2192 reassured \u2192 grateful",
+  "turns": [
+    {
+      "speaker": "Client",
+      "text": "My heart's racing and I can't stop shaking. I feel like something terrible is about to happen."
+    },
+    {
+      "speaker": "Counselor",
+      "text": "That sounds frightening. You're safe right now, and we'll take this one small step at a time."
+    },
+    {
+      "speaker": "Client",
+      "text": "Okay... okay, that's helping a little. My breathing is slowing down."
+    },
+    {
+      "speaker": "Client",
+      "text": "Thank you for staying calm with me. I think I can get through tonight after all."
+    }
+  ]
+}

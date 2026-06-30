@@ -1,0 +1,19 @@
+{
+  "conversation_id": "neutral_05",
+  "case_type": "neutral",
+  "title": "Weather smalltalk",
+  "turns": [
+    {
+      "speaker": "A",
+      "text": "Looks like rain later this afternoon."
+    },
+    {
+      "speaker": "B",
+      "text": "Yeah, forecast says showers around four, clearing by evening."
+    },
+    {
+      "speaker": "A",
+      "text": "I'll bring an umbrella then."
+    }
+  ]
+}

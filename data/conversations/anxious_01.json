@@ -1,0 +1,19 @@
+{
+  "conversation_id": "anxious_01",
+  "case_type": "anxious",
+  "title": "Panic attack symptoms",
+  "turns": [
+    {
+      "speaker": "Person",
+      "text": "My chest is so tight and my hands won't stop trembling. I think something is really wrong with me."
+    },
+    {
+      "speaker": "Friend",
+      "text": "Breathe with me, slowly. You're going to be okay, I'm right here."
+    },
+    {
+      "speaker": "Person",
+      "text": "I can't catch my breath. What if I'm dying? I can't stop the racing thoughts."
+    }
+  ]
+}

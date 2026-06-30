@@ -1,0 +1,19 @@
+{
+  "conversation_id": "anxious_06",
+  "case_type": "anxious",
+  "title": "New-parent worry",
+  "turns": [
+    {
+      "speaker": "Parent",
+      "text": "The baby hasn't eaten much today and I'm spiraling. What if I'm doing everything wrong?"
+    },
+    {
+      "speaker": "Midwife",
+      "text": "First, take a breath. You're clearly a caring parent. Tell me what you've noticed."
+    },
+    {
+      "speaker": "Parent",
+      "text": "I keep checking if she's breathing every five minutes. I can't switch my brain off."
+    }
+  ]
+}

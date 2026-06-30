@@ -1,0 +1,19 @@
+{
+  "conversation_id": "anxious_03",
+  "case_type": "anxious",
+  "title": "Pre-exam nerves",
+  "turns": [
+    {
+      "speaker": "Student",
+      "text": "The exam is tomorrow and my stomach is in knots. I'm sure I'm going to fail."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "You've prepared well. What specifically feels shakiest right now?"
+    },
+    {
+      "speaker": "Student",
+      "text": "Everything. My mind goes blank and I just keep panicking about blanking out."
+    }
+  ]
+}

@@ -1,0 +1,1714 @@
+{
+  "conversation_id": "evasive_05",
+  "scored_at": "2026-06-30T08:37:08.937448+00:00",
+  "config": {
+    "model": "qwen2.5:3b-instruct-q4_K_M",
+    "embed_model": "BAAI/bge-small-en-v1.5",
+    "router_top_k": 30,
+    "safety_floor": 12,
+    "batch_size": 12,
+    "scale": "1-5"
+  },
+  "n_turns": 4,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Friend",
+      "text": "You seem off lately. Is everything okay with you?",
+      "n_routed": 41,
+      "n_scored": 41,
+      "n_missing": 0,
+      "rescued_by_safety_floor": [
+        "F0061",
+        "F0253",
+        "F0016",
+        "F0298",
+        "F0372",
+        "F0199",
+        "F0202",
+        "F0175",
+        "F0367",
+        "F0164",
+        "F0090"
+      ],
+      "scores": [
+        {
+          "facet_id": "F0396",
+          "facet_name": "Peacefulness",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5277,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0019",
+          "facet_name": "Aloofness",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5239,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0227",
+          "facet_name": "Regularity of Self-Reflection",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5226,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0371",
+          "facet_name": "Avoiding",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5169,
+          "score": 4,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0286",
+          "facet_name": "Managing emotions",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5126,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0368",
+          "facet_name": "Comfort with Vulnerability",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5093,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0047",
+          "facet_name": "Sensitiveness",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5087,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0378",
+          "facet_name": "Quirkiness",
+          "category": "personality",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5083,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0387",
+          "facet_name": "Type of Support Preferred (Emotional vs. Practical)",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5082,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0003",
+          "facet_name": "Acidity",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5037,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0322",
+          "facet_name": "Drollness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5019,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0103",
+          "facet_name": "Burnout Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5005,
+          "score": 2,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0121",
+          "facet_name": "Inversion comfort level",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4999,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0361",
+          "facet_name": "Irritability",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4991,
+          "score": 1,
+          "confidence": 0.95
+        },
+        {
+          "facet_id": "F0217",
+          "facet_name": "Withdrawnness",
+          "category": "personality",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4972,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0006",
+          "facet_name": "Hesitation",
+          "category": "linguistic",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4967,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0234",
+          "facet_name": "Boredom Susceptibility",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4953,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0370",
+          "facet_name": "Additional Common Parameters and Their End Points",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4948,
+          "score": 1,
+          "confidence": 0.95
+        },
+        {
+          "facet_id": "F0204",
+          "facet_name": "Sentence Structure",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4948,
+          "score": 2,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0005",
+          "facet_name": "Common-sense",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4947,
+          "score": 3,
+          "confidence": 0.85
+        },
+        {
+          "facet_id": "F0139",
+          "facet_name": "Well-being component: Engagement",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4943,
+          "score": 2,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0116",
+          "facet_name": "Contentment Levels",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4943,
+          "score": 1,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0033",
+          "facet_name": "Self Perspective",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4939,
+          "score": 1,
+          "confidence": 0.85
+        },
+        {
+          "facet_id": "F0273",
+          "facet_name": "Disagreeableness",
+          "category": "personality",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4936,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0149",
+          "facet_name": "General Mood and Attitude",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4934,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0254",
+          "facet_name": "Discernment practice hours / week",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4926,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0342",
+          "facet_name": "Effeteness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4924,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0184",
+          "facet_name": "Exemplariness",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4913,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0147",
+          "facet_name": "Eye-contact duration",
+          "category": "linguistic",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4909,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0278",
+          "facet_name": "Tendency Toward Compromise or Confrontation",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4907,
+          "score": 3,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0061",
+          "facet_name": "Depression Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4786,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0253",
+          "facet_name": "Chronic pain presence",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4739,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0016",
+          "facet_name": "Compassion Fatigue",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4694,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0298",
+          "facet_name": "Drug-use history",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4619,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0372",
+          "facet_name": "Home-security-system presence",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.4563,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0199",
+          "facet_name": "Psychological construct: Acculturative Stress score",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4509,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0202",
+          "facet_name": "Hysteria (Hy)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4474,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0175",
+          "facet_name": "Depression (DEP)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4465,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0367",
+          "facet_name": "Caffeine intake (mg/day)",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.4446,
+          "score": 1,
+          "confidence": 0.4
+        },
+        {
+          "facet_id": "F0164",
+          "facet_name": "Physical-violence exposure",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4384,
+          "score": 1,
+          "confidence": 0.2
+        },
+        {
+          "facet_id": "F0090",
+          "facet_name": "Sleep-disorder diagnosis",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4383,
+          "score": 1,
+          "confidence": 0.3
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "speaker": "Other",
+      "text": "I'm fine. Just tired, I guess. Nothing worth getting into.",
+      "n_routed": 37,
+      "n_scored": 37,
+      "n_missing": 0,
+      "rescued_by_safety_floor": [
+        "F0367",
+        "F0103",
+        "F0298",
+        "F0319",
+        "F0338",
+        "F0327",
+        "F0250"
+      ],
+      "scores": [
+        {
+          "facet_id": "F0342",
+          "facet_name": "Effeteness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5146,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0016",
+          "facet_name": "Compassion Fatigue",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5133,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0017",
+          "facet_name": "Moroseness",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5106,
+          "score": 3,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0371",
+          "facet_name": "Avoiding",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4918,
+          "score": 4,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0121",
+          "facet_name": "Inversion comfort level",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.491,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0152",
+          "facet_name": "Dignity",
+          "category": "personality",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4834,
+          "score": 2,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0368",
+          "facet_name": "Comfort with Vulnerability",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4831,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0222",
+          "facet_name": "Ardency",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4812,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0034",
+          "facet_name": "Desperation",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4798,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0396",
+          "facet_name": "Peacefulness",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4781,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0061",
+          "facet_name": "Depression Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.4759,
+          "score": 3,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0116",
+          "facet_name": "Contentment Levels",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4727,
+          "score": 2,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0175",
+          "facet_name": "Depression (DEP)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.4723,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0361",
+          "facet_name": "Irritability",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4723,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0213",
+          "facet_name": "Sleep-environment temperature",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4718,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0201",
+          "facet_name": "Concreteness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4702,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0182",
+          "facet_name": "Activator: Turning thoughts into action",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4694,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0234",
+          "facet_name": "Boredom Susceptibility",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4692,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0019",
+          "facet_name": "Aloofness",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4675,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0053",
+          "facet_name": "Enthusiasm",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4672,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0217",
+          "facet_name": "Withdrawnness",
+          "category": "personality",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4657,
+          "score": 5,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0090",
+          "facet_name": "Sleep-disorder diagnosis",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.4644,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0253",
+          "facet_name": "Chronic pain presence",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.4636,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0084",
+          "facet_name": "Depression: Feelings of sadness and hopelessness",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4625,
+          "score": 2,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0048",
+          "facet_name": "Negative Affect Frequency",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4605,
+          "score": 3,
+          "confidence": 0.75
+        },
+        {
+          "facet_id": "F0003",
+          "facet_name": "Acidity",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4603,
+          "score": 2,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0195",
+          "facet_name": "Coarseness",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4602,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0056",
+          "facet_name": "Unassertiveness",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4596,
+          "score": 4,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0348",
+          "facet_name": "Persistence",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4594,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0082",
+          "facet_name": "Health-literacy level",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4587,
+          "score": 2,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0367",
+          "facet_name": "Caffeine intake (mg/day)",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.4561,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0103",
+          "facet_name": "Burnout Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4541,
+          "score": 1,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0298",
+          "facet_name": "Drug-use history",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4513,
+          "score": 1,
+          "confidence": 0.95
+        },
+        {
+          "facet_id": "F0319",
+          "facet_name": "Safety compliance",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4323,
+          "score": 4,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0338",
+          "facet_name": "Sleep Apnea",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4241,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0327",
+          "facet_name": "Museum visits/year",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.4241,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0250",
+          "facet_name": "Harmfulness",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4197,
+          "score": 1,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Friend",
+      "text": "You can talk to me, you know.",
+      "n_routed": 42,
+      "n_scored": 42,
+      "n_missing": 0,
+      "rescued_by_safety_floor": [
+        "F0253",
+        "F0061",
+        "F0103",
+        "F0319",
+        "F0298",
+        "F0164",
+        "F0175",
+        "F0090",
+        "F0372",
+        "F0250",
+        "F0267",
+        "F0202"
+      ],
+      "scores": [
+        {
+          "facet_id": "F0214",
+          "facet_name": "Comprehension of spoken information",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5756,
+          "score": 3,
+          "confidence": 0.85
+        },
+        {
+          "facet_id": "F0286",
+          "facet_name": "Managing emotions",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5708,
+          "score": 3,
+          "confidence": 0.75
+        },
+        {
+          "facet_id": "F0155",
+          "facet_name": "Input",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5582,
+          "score": 4,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0119",
+          "facet_name": "Perceiving",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5524,
+          "score": 3,
+          "confidence": 0.65
+        },
+        {
+          "facet_id": "F0207",
+          "facet_name": "Auditory Memory Recall",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5484,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0263",
+          "facet_name": "Talkativeness",
+          "category": "behavioral",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5473,
+          "score": 4,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0068",
+          "facet_name": "Network basics",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5445,
+          "score": 3,
+          "confidence": 0.75
+        },
+        {
+          "facet_id": "F0345",
+          "facet_name": "Learning through movement",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5429,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0204",
+          "facet_name": "Sentence Structure",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5388,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0228",
+          "facet_name": "Controlling Reactions",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5387,
+          "score": 3,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0051",
+          "facet_name": "Feedback-giving frequency",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5332,
+          "score": 2,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0227",
+          "facet_name": "Regularity of Self-Reflection",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.529,
+          "score": 4,
+          "confidence": 0.85
+        },
+        {
+          "facet_id": "F0265",
+          "facet_name": "Ideas generated/day",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5288,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0083",
+          "facet_name": "Estimating Calculations",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5264,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0176",
+          "facet_name": "Understanding Mathematical Concepts",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5225,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0381",
+          "facet_name": "Cordiality",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5218,
+          "score": 4,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0283",
+          "facet_name": "Reliance on context",
+          "category": "linguistic",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5215,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0167",
+          "facet_name": "Language use",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5203,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0126",
+          "facet_name": "Seeking approval",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5201,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0147",
+          "facet_name": "Eye-contact duration",
+          "category": "linguistic",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5199,
+          "score": 3,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0370",
+          "facet_name": "Additional Common Parameters and Their End Points",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5191,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0387",
+          "facet_name": "Type of Support Preferred (Emotional vs. Practical)",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5189,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0255",
+          "facet_name": "Initiative",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5175,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0208",
+          "facet_name": "Storytelling proficiency",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5165,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0187",
+          "facet_name": "Frankness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5165,
+          "score": 3,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0201",
+          "facet_name": "Concreteness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5151,
+          "score": 4,
+          "confidence": 0.95
+        },
+        {
+          "facet_id": "F0198",
+          "facet_name": "Divided Attention Ability",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5149,
+          "score": 1,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0257",
+          "facet_name": "Joyfulness",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5135,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0152",
+          "facet_name": "Dignity",
+          "category": "personality",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5122,
+          "score": 3,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0092",
+          "facet_name": "Collaboration",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5099,
+          "score": 1,
+          "confidence": 0.4
+        },
+        {
+          "facet_id": "F0253",
+          "facet_name": "Chronic pain presence",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4976,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0061",
+          "facet_name": "Depression Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4832,
+          "score": 1,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0103",
+          "facet_name": "Burnout Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4818,
+          "score": 1,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0319",
+          "facet_name": "Safety compliance",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4752,
+          "score": 2,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0298",
+          "facet_name": "Drug-use history",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4738,
+          "score": 1,
+          "confidence": 0.4
+        },
+        {
+          "facet_id": "F0164",
+          "facet_name": "Physical-violence exposure",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.468,
+          "score": 1,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0175",
+          "facet_name": "Depression (DEP)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4654,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0090",
+          "facet_name": "Sleep-disorder diagnosis",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4357,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0372",
+          "facet_name": "Home-security-system presence",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.4347,
+          "score": 1,
+          "confidence": 0.95
+        },
+        {
+          "facet_id": "F0250",
+          "facet_name": "Harmfulness",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4235,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0267",
+          "facet_name": "Fearfulness: Fear of physical dangers",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4182,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0202",
+          "facet_name": "Hysteria (Hy)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4116,
+          "score": 1,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Other",
+      "text": "There's nothing to talk about, really. Let's drop it.",
+      "n_routed": 41,
+      "n_scored": 41,
+      "n_missing": 0,
+      "rescued_by_safety_floor": [
+        "F0164",
+        "F0253",
+        "F0311",
+        "F0298",
+        "F0103",
+        "F0267",
+        "F0250",
+        "F0061",
+        "F0090",
+        "F0319",
+        "F0372"
+      ],
+      "scores": [
+        {
+          "facet_id": "F0371",
+          "facet_name": "Avoiding",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.539,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0155",
+          "facet_name": "Input",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5006,
+          "score": 3,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0201",
+          "facet_name": "Concreteness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4948,
+          "score": 2,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0297",
+          "facet_name": "Non-Verbal Communication Skills",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4924,
+          "score": 1,
+          "confidence": 0.4
+        },
+        {
+          "facet_id": "F0068",
+          "facet_name": "Network basics",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4865,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0051",
+          "facet_name": "Feedback-giving frequency",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4836,
+          "score": 1,
+          "confidence": 0.2
+        },
+        {
+          "facet_id": "F0147",
+          "facet_name": "Eye-contact duration",
+          "category": "linguistic",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4829,
+          "score": 1,
+          "confidence": 0.2
+        },
+        {
+          "facet_id": "F0282",
+          "facet_name": "Collectedness",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4789,
+          "score": 3,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0184",
+          "facet_name": "Exemplariness",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4773,
+          "score": 1,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0227",
+          "facet_name": "Regularity of Self-Reflection",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4726,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0152",
+          "facet_name": "Dignity",
+          "category": "personality",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4713,
+          "score": 3,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0006",
+          "facet_name": "Hesitation",
+          "category": "linguistic",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.471,
+          "score": 4,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0370",
+          "facet_name": "Additional Common Parameters and Their End Points",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4697,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0179",
+          "facet_name": "Depth of Emotional Connections",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4696,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0263",
+          "facet_name": "Talkativeness",
+          "category": "behavioral",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4689,
+          "score": 5,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0194",
+          "facet_name": "Use of Mathematical Formulas",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4689,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0368",
+          "facet_name": "Comfort with Vulnerability",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4656,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0186",
+          "facet_name": "Submission",
+          "category": "spiritual",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4631,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0099",
+          "facet_name": "Mysteriousness",
+          "category": "spiritual",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4619,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0175",
+          "facet_name": "Depression (DEP)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.4615,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0195",
+          "facet_name": "Coarseness",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4612,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0176",
+          "facet_name": "Understanding Mathematical Concepts",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4584,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0286",
+          "facet_name": "Managing emotions",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4575,
+          "score": 3,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0214",
+          "facet_name": "Comprehension of spoken information",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4572,
+          "score": 4,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0031",
+          "facet_name": "Disrespect",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4568,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0108",
+          "facet_name": "Impracticalness",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4546,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0381",
+          "facet_name": "Cordiality",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4542,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0283",
+          "facet_name": "Reliance on context",
+          "category": "linguistic",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4534,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0048",
+          "facet_name": "Negative Affect Frequency",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4533,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0017",
+          "facet_name": "Moroseness",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4527,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0164",
+          "facet_name": "Physical-violence exposure",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4183,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0253",
+          "facet_name": "Chronic pain presence",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4172,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0311",
+          "facet_name": "Religious coping \u2013 Negative",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4069,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0298",
+          "facet_name": "Drug-use history",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.403,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0103",
+          "facet_name": "Burnout Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3987,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0267",
+          "facet_name": "Fearfulness: Fear of physical dangers",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3979,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0250",
+          "facet_name": "Harmfulness",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3907,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0061",
+          "facet_name": "Depression Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3892,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0090",
+          "facet_name": "Sleep-disorder diagnosis",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3883,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0319",
+          "facet_name": "Safety compliance",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3807,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0372",
+          "facet_name": "Home-security-system presence",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.3651,
+          "score": 1,
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

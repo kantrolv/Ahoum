@@ -1,0 +1,19 @@
+{
+  "conversation_id": "hostile_02",
+  "case_type": "hostile",
+  "title": "Confrontation in traffic",
+  "turns": [
+    {
+      "speaker": "Driver A",
+      "text": "Watch where you're going, you moron! You almost hit my car!"
+    },
+    {
+      "speaker": "Driver B",
+      "text": "Me? You ran the light, pal."
+    },
+    {
+      "speaker": "Driver A",
+      "text": "Don't you dare blame me. You're a menace and you shouldn't even have a license, you fool."
+    }
+  ]
+}

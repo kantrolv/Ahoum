@@ -1,0 +1,23 @@
+{
+  "conversation_id": "polite_02",
+  "case_type": "polite",
+  "title": "Courteous favor request",
+  "turns": [
+    {
+      "speaker": "Maya",
+      "text": "Hi Sam, I hope you're doing well. Could I possibly ask a small favor, if it's not too much trouble?"
+    },
+    {
+      "speaker": "Sam",
+      "text": "Hi Maya! Absolutely, what do you need?"
+    },
+    {
+      "speaker": "Maya",
+      "text": "Would you be willing to look over my cover letter? Only if you have the time \u2014 no pressure at all."
+    },
+    {
+      "speaker": "Sam",
+      "text": "I'd be glad to. Send it over whenever you're ready."
+    }
+  ]
+}

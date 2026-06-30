@@ -1,0 +1,19 @@
+{
+  "conversation_id": "anxious_04",
+  "case_type": "anxious",
+  "title": "Social anxiety before event",
+  "turns": [
+    {
+      "speaker": "Alex",
+      "text": "The party is in an hour and I feel sick. Everyone's going to judge me."
+    },
+    {
+      "speaker": "Roommate",
+      "text": "You don't have to stay long. We can leave whenever you want."
+    },
+    {
+      "speaker": "Alex",
+      "text": "I keep replaying every awkward thing I might say. My heart is pounding already."
+    }
+  ]
+}

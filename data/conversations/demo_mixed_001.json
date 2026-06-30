@@ -1,0 +1,12 @@
+{
+  "conversation_id": "demo_mixed_001",
+  "case_type": "mixed-arc",
+  "description": "A support chat that moves through anxiety, anger, and relief so different facets light up per turn.",
+  "turns": [
+    {"speaker": "Client", "text": "My heart's racing and I can't stop shaking. I haven't slept in days and I keep feeling like something terrible is about to happen to me."},
+    {"speaker": "Counselor", "text": "That sounds really frightening, and I'm glad you reached out. Let's slow this down together — you're safe right now, and we'll take it one small step at a time."},
+    {"speaker": "Client", "text": "Don't patronize me. You have no idea what this is like. Everyone keeps giving me useless advice and frankly you're just as incompetent as the rest of them."},
+    {"speaker": "Counselor", "text": "You're right that I can't fully know your experience, and I'm sorry the help so far has felt empty. Your frustration makes complete sense after being let down repeatedly."},
+    {"speaker": "Client", "text": "Sorry for snapping. Honestly, thank you for staying calm with me. I think I just needed someone to actually listen. Maybe I can get through tonight after all."}
+  ]
+}

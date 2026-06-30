@@ -1,0 +1,19 @@
+{
+  "conversation_id": "neutral_06",
+  "case_type": "neutral",
+  "title": "Library renewal",
+  "turns": [
+    {
+      "speaker": "Member",
+      "text": "I'd like to renew these two books, please."
+    },
+    {
+      "speaker": "Librarian",
+      "text": "Both renewed for another three weeks. Due the 28th."
+    },
+    {
+      "speaker": "Member",
+      "text": "Perfect, thank you."
+    }
+  ]
+}

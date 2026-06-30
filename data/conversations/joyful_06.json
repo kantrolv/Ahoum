@@ -1,0 +1,19 @@
+{
+  "conversation_id": "joyful_06",
+  "case_type": "joyful",
+  "title": "Vacation excitement",
+  "turns": [
+    {
+      "speaker": "Kim",
+      "text": "We leave for Italy tomorrow! I've dreamed about this trip for years!"
+    },
+    {
+      "speaker": "Partner",
+      "text": "I'm buzzing too! Gelato, the coast, all of it \u2014 let's make incredible memories!"
+    },
+    {
+      "speaker": "Kim",
+      "text": "I'm so excited I can barely sleep. This is going to be magical!"
+    }
+  ]
+}

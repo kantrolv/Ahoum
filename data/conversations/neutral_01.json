@@ -1,0 +1,23 @@
+{
+  "conversation_id": "neutral_01",
+  "case_type": "neutral",
+  "title": "Scheduling a meeting",
+  "turns": [
+    {
+      "speaker": "A",
+      "text": "Can we move the sync to 3pm on Thursday?"
+    },
+    {
+      "speaker": "B",
+      "text": "Thursday at 3 works. I'll send an updated invite."
+    },
+    {
+      "speaker": "A",
+      "text": "Great. Same video link as before?"
+    },
+    {
+      "speaker": "B",
+      "text": "Yes, same link. Talk then."
+    }
+  ]
+}

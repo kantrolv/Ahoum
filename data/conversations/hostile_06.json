@@ -1,0 +1,19 @@
+{
+  "conversation_id": "hostile_06",
+  "case_type": "hostile",
+  "title": "Sibling shouting match",
+  "turns": [
+    {
+      "speaker": "Jordan",
+      "text": "You took my charger again without asking. You're so selfish, it's unbelievable."
+    },
+    {
+      "speaker": "Casey",
+      "text": "Oh grow up. It's a charger."
+    },
+    {
+      "speaker": "Jordan",
+      "text": "No, you grow up. You ruin everything and I'm sick of living with you."
+    }
+  ]
+}

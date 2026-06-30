@@ -1,0 +1,26 @@
+# Python 3.14 (Homebrew 3.11/3.12 bottles had a broken expat linkage on this
+# machine; 3.14 works and has full arm64 wheel coverage). Lower-bound pins let
+# pip pick the cp314-compatible builds; they resolve cleanly (verified by dry-run).
+
+# --- Core data / registry (Phase 1) ---
+pandas>=2.2
+
+# --- Embeddings + vector store (Phase 2) ---
+# bge-small-en-v1.5 is pulled at runtime by sentence-transformers.
+sentence-transformers>=3.3
+chromadb>=1.0
+
+# --- Structured output + scoring (Phase 3) ---
+pydantic>=2.10
+ollama>=0.4          # Python client for the local Ollama server (Qwen2.5-7B)
+
+# --- API (Phase 4+) ---
+fastapi>=0.115
+uvicorn[standard]>=0.34
+
+# --- UI (Phase 7, brownie) ---
+streamlit>=1.40
+
+# --- Dev / testing ---
+pytest>=8.0
+python-dotenv>=1.0   # load config from .env

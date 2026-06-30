@@ -1,0 +1,23 @@
+{
+  "conversation_id": "evasive_03",
+  "case_type": "evasive",
+  "title": "Non-committal about plans",
+  "turns": [
+    {
+      "speaker": "Organizer",
+      "text": "Are you coming to the reunion or not? I need a headcount."
+    },
+    {
+      "speaker": "Invitee",
+      "text": "Maybe. We'll see how things shake out. Hard to say right now."
+    },
+    {
+      "speaker": "Organizer",
+      "text": "It's in three weeks though."
+    },
+    {
+      "speaker": "Invitee",
+      "text": "Yeah, I'll let you know closer to the time. Depends on a few things."
+    }
+  ]
+}

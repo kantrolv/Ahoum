@@ -1,0 +1,27 @@
+{
+  "conversation_id": "polite_01",
+  "case_type": "polite",
+  "title": "Customer thanks support",
+  "turns": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I'm so sorry to bother you \u2014 would you mind helping me reset my password when you have a moment?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Of course, it's no bother at all. I'd be happy to help you with that right now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you so much, that's very kind. I really appreciate your patience with me."
+    },
+    {
+      "speaker": "Agent",
+      "text": "You're very welcome. All set \u2014 please don't hesitate to reach out again."
+    },
+    {
+      "speaker": "Customer",
+      "text": "That's wonderful, thank you again for being so helpful and courteous."
+    }
+  ]
+}

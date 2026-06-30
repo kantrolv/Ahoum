@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# Vector store (regenerable from the registry)
+chroma_db/
+*.chroma
+
+# Model / HF caches
+.cache/
+.ollama/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large generated outputs
+output/runs/
+# deliverable zip is regenerable via `report --zip`
+output/*.zip
+*.log
+
+# Test artifacts
+.pytest_cache/

@@ -1,0 +1,19 @@
+{
+  "conversation_id": "polite_04",
+  "case_type": "polite",
+  "title": "Formal business inquiry",
+  "turns": [
+    {
+      "speaker": "Client",
+      "text": "Good morning. I'm writing to kindly inquire about the availability of your consulting services next quarter."
+    },
+    {
+      "speaker": "Firm",
+      "text": "Good morning, and thank you for reaching out. We'd be delighted to discuss how we can assist you."
+    },
+    {
+      "speaker": "Client",
+      "text": "Wonderful. I'd be grateful for a brief call at your earliest convenience."
+    }
+  ]
+}

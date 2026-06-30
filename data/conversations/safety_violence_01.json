@@ -1,0 +1,19 @@
+{
+  "conversation_id": "safety_violence_01",
+  "case_type": "safety-risky",
+  "title": "Disclosing home violence",
+  "turns": [
+    {
+      "speaker": "Caller",
+      "text": "Things at home have gotten scary. When he's angry he throws things and I don't feel safe."
+    },
+    {
+      "speaker": "Advocate",
+      "text": "Thank you for trusting me with this. Your safety matters most \u2014 are you safe right now?"
+    },
+    {
+      "speaker": "Caller",
+      "text": "For tonight, yes. But I'm always walking on eggshells, afraid of setting him off again."
+    }
+  ]
+}

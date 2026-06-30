@@ -1,0 +1,23 @@
+{
+  "conversation_id": "neutral_03",
+  "case_type": "neutral",
+  "title": "Technical Q&A",
+  "turns": [
+    {
+      "speaker": "User",
+      "text": "How do I export the report as a PDF?"
+    },
+    {
+      "speaker": "Support",
+      "text": "Open the report, click File, then Export, and choose PDF."
+    },
+    {
+      "speaker": "User",
+      "text": "And that keeps the formatting?"
+    },
+    {
+      "speaker": "Support",
+      "text": "Yes, the layout is preserved in the export."
+    }
+  ]
+}

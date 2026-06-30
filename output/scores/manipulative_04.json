@@ -1,0 +1,1226 @@
+{
+  "conversation_id": "manipulative_04",
+  "scored_at": "2026-06-30T09:24:54.968692+00:00",
+  "config": {
+    "model": "qwen2.5:3b-instruct-q4_K_M",
+    "embed_model": "BAAI/bge-small-en-v1.5",
+    "router_top_k": 30,
+    "safety_floor": 12,
+    "batch_size": 12,
+    "scale": "1-5"
+  },
+  "n_turns": 3,
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Mother",
+      "text": "If you move away for that job, it'll break my heart and my health will get worse. But do what you want.",
+      "n_routed": 34,
+      "n_scored": 34,
+      "n_missing": 0,
+      "rescued_by_safety_floor": [
+        "F0202",
+        "F0175",
+        "F0016",
+        "F0319"
+      ],
+      "scores": [
+        {
+          "facet_id": "F0034",
+          "facet_name": "Desperation",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5588,
+          "score": 5,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0369",
+          "facet_name": "Anticipativeness",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5454,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0387",
+          "facet_name": "Type of Support Preferred (Emotional vs. Practical)",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5386,
+          "score": 2,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0331",
+          "facet_name": "Desire to influence others",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5227,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0368",
+          "facet_name": "Comfort with Vulnerability",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5206,
+          "score": 4,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0267",
+          "facet_name": "Fearfulness: Fear of physical dangers",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5181,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0371",
+          "facet_name": "Avoiding",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5153,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0311",
+          "facet_name": "Religious coping \u2013 Negative",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5147,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0389",
+          "facet_name": "Patience: Resistance to anger",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.514,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0001",
+          "facet_name": "Risktaking",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.514,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0103",
+          "facet_name": "Burnout Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5131,
+          "score": 4,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0232",
+          "facet_name": "Significance: Desire to make an impact",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5128,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0029",
+          "facet_name": "Big-heartedness",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5077,
+          "score": 3,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0306",
+          "facet_name": "Use of Nature as a Stress Reliever",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5054,
+          "score": 1,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0253",
+          "facet_name": "Chronic pain presence",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5043,
+          "score": 4,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0124",
+          "facet_name": "Martyrdom",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.503,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0340",
+          "facet_name": "Control over situations",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5018,
+          "score": 2,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0391",
+          "facet_name": "Self-Efficacy",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5016,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0250",
+          "facet_name": "Harmfulness",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5015,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0348",
+          "facet_name": "Persistence",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5007,
+          "score": 2,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0164",
+          "facet_name": "Physical-violence exposure",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5001,
+          "score": 1,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0171",
+          "facet_name": "Emotional Boundaries",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4997,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0244",
+          "facet_name": "Preference for Home-Cooked vs Restaurant Meals",
+          "category": "behavioral",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4997,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0200",
+          "facet_name": "Dauntlessness",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4974,
+          "score": 2,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0075",
+          "facet_name": "Hardworking",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4953,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0052",
+          "facet_name": "Dance-cardio sessions",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4953,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0084",
+          "facet_name": "Depression: Feelings of sadness and hopelessness",
+          "category": "emotion",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4948,
+          "score": 3,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0298",
+          "facet_name": "Drug-use history",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.4942,
+          "score": 1,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0376",
+          "facet_name": "Alignment with societal roles",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4937,
+          "score": 1,
+          "confidence": 0.4
+        },
+        {
+          "facet_id": "F0070",
+          "facet_name": "Work Styles",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4926,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0202",
+          "facet_name": "Hysteria (Hy)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4876,
+          "score": 1,
+          "confidence": 0.2
+        },
+        {
+          "facet_id": "F0175",
+          "facet_name": "Depression (DEP)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4851,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0016",
+          "facet_name": "Compassion Fatigue",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4816,
+          "score": 1,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0319",
+          "facet_name": "Safety compliance",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4792,
+          "score": 2,
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "speaker": "Child",
+      "text": "Mom, this is a huge opportunity for me.",
+      "n_routed": 42,
+      "n_scored": 42,
+      "n_missing": 0,
+      "rescued_by_safety_floor": [
+        "F0253",
+        "F0164",
+        "F0327",
+        "F0161",
+        "F0298",
+        "F0372",
+        "F0367",
+        "F0319",
+        "F0016",
+        "F0267",
+        "F0202",
+        "F0188"
+      ],
+      "scores": [
+        {
+          "facet_id": "F0255",
+          "facet_name": "Initiative",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5038,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0118",
+          "facet_name": "Desire for excellence",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4985,
+          "score": 3,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0205",
+          "facet_name": "Esteem Needs",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4961,
+          "score": 1,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0232",
+          "facet_name": "Significance: Desire to make an impact",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4958,
+          "score": 4,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0119",
+          "facet_name": "Perceiving",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4824,
+          "score": 3,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0130",
+          "facet_name": "Psychological construct: Need for Achievement level",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4812,
+          "score": 3,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0029",
+          "facet_name": "Big-heartedness",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4787,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0107",
+          "facet_name": "Encouraging participation",
+          "category": "linguistic",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4766,
+          "score": 4,
+          "confidence": 0.95
+        },
+        {
+          "facet_id": "F0270",
+          "facet_name": "Public-transport km/week",
+          "category": "behavioral",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4742,
+          "score": 2,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0126",
+          "facet_name": "Seeking approval",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4667,
+          "score": 3,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0151",
+          "facet_name": "Contribution to Group Goals",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4652,
+          "score": 4,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0369",
+          "facet_name": "Anticipativeness",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4634,
+          "score": 2,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0302",
+          "facet_name": "Peer-to-peer lending usage",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4625,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0265",
+          "facet_name": "Ideas generated/day",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4596,
+          "score": 4,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0015",
+          "facet_name": "Adventure-Seeking Behavior",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4568,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0140",
+          "facet_name": "Need for social interaction",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4552,
+          "score": 2,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0318",
+          "facet_name": "Islamic practice: Seerah study hours",
+          "category": "spiritual",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4546,
+          "score": 2,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0086",
+          "facet_name": "Leadership Potential",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4525,
+          "score": 3,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0075",
+          "facet_name": "Hardworking",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4519,
+          "score": 4,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0244",
+          "facet_name": "Preference for Home-Cooked vs Restaurant Meals",
+          "category": "behavioral",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4497,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0083",
+          "facet_name": "Estimating Calculations",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4486,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0173",
+          "facet_name": "Psychological construct: Hope scale",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4485,
+          "score": 3,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0387",
+          "facet_name": "Type of Support Preferred (Emotional vs. Practical)",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4473,
+          "score": 5,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0182",
+          "facet_name": "Activator: Turning thoughts into action",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4466,
+          "score": 4,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0325",
+          "facet_name": "Sikh spiritual metric: Kirtan participation frequency",
+          "category": "spiritual",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4464,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0290",
+          "facet_name": "Open-source contributions",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4462,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0050",
+          "facet_name": "Achievement Motivation",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4461,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0163",
+          "facet_name": "Vision-check frequency",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4456,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0109",
+          "facet_name": "Meeting Deadlines",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4436,
+          "score": 2,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0172",
+          "facet_name": "Creativity in solutions",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4434,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0253",
+          "facet_name": "Chronic pain presence",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4304,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0164",
+          "facet_name": "Physical-violence exposure",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4303,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0327",
+          "facet_name": "Museum visits/year",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.4166,
+          "score": 2,
+          "confidence": 0.6
+        },
+        {
+          "facet_id": "F0161",
+          "facet_name": "Childhood Experiences",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4111,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0298",
+          "facet_name": "Drug-use history",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.411,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0372",
+          "facet_name": "Home-security-system presence",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.408,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0367",
+          "facet_name": "Caffeine intake (mg/day)",
+          "category": "safety",
+          "polarity": "neutral",
+          "via": "safety_floor",
+          "similarity": 0.408,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0319",
+          "facet_name": "Safety compliance",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3946,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0016",
+          "facet_name": "Compassion Fatigue",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3856,
+          "score": 1,
+          "confidence": 0.2
+        },
+        {
+          "facet_id": "F0267",
+          "facet_name": "Fearfulness: Fear of physical dangers",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3813,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0202",
+          "facet_name": "Hysteria (Hy)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.3606,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0188",
+          "facet_name": "Psychological construct: Psychological Safety climate",
+          "category": "safety",
+          "polarity": "positive",
+          "via": "safety_floor",
+          "similarity": 0.3528,
+          "score": 3,
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Mother",
+      "text": "Of course, your career matters more than your own mother. I'll just be here, alone, suffering.",
+      "n_routed": 39,
+      "n_scored": 39,
+      "n_missing": 0,
+      "rescued_by_safety_floor": [
+        "F0175",
+        "F0103",
+        "F0124",
+        "F0199",
+        "F0311",
+        "F0164",
+        "F0250",
+        "F0202",
+        "F0188"
+      ],
+      "scores": [
+        {
+          "facet_id": "F0038",
+          "facet_name": "Presence of Spiritual Pain",
+          "category": "spiritual",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5579,
+          "score": 5,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0027",
+          "facet_name": "SelfEsteem",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.544,
+          "score": 1,
+          "confidence": 0.0
+        },
+        {
+          "facet_id": "F0205",
+          "facet_name": "Esteem Needs",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5367,
+          "score": 1,
+          "confidence": 0.0
+        },
+        {
+          "facet_id": "F0152",
+          "facet_name": "Dignity",
+          "category": "personality",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5337,
+          "score": 1,
+          "confidence": 0.0
+        },
+        {
+          "facet_id": "F0253",
+          "facet_name": "Chronic pain presence",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5275,
+          "score": 5,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0130",
+          "facet_name": "Psychological construct: Need for Achievement level",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.525,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0391",
+          "facet_name": "Self-Efficacy",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5245,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0161",
+          "facet_name": "Childhood Experiences",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.5219,
+          "score": 1,
+          "confidence": 0.0
+        },
+        {
+          "facet_id": "F0039",
+          "facet_name": "Role of Spirituality in Community Involvement",
+          "category": "spiritual",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5184,
+          "score": 1,
+          "confidence": 0.0
+        },
+        {
+          "facet_id": "F0200",
+          "facet_name": "Dauntlessness",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.518,
+          "score": 1,
+          "confidence": 0.0
+        },
+        {
+          "facet_id": "F0369",
+          "facet_name": "Anticipativeness",
+          "category": "cognitive",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5179,
+          "score": 1,
+          "confidence": 0.0
+        },
+        {
+          "facet_id": "F0189",
+          "facet_name": "Psychological construct: Self-Compassion total",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5145,
+          "score": 4,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0331",
+          "facet_name": "Desire to influence others",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5066,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0211",
+          "facet_name": "Self-effacement",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5047,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0232",
+          "facet_name": "Significance: Desire to make an impact",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5044,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0148",
+          "facet_name": "Self-righteousness",
+          "category": "pragmatic",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5034,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0344",
+          "facet_name": "Psychological construct: Identity Diffusion level",
+          "category": "personality",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.5033,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0340",
+          "facet_name": "Control over situations",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.5025,
+          "score": 2,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0033",
+          "facet_name": "Self Perspective",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.5018,
+          "score": 3,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0387",
+          "facet_name": "Type of Support Preferred (Emotional vs. Practical)",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4996,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0292",
+          "facet_name": "Individuality",
+          "category": "personality",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4996,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0101",
+          "facet_name": "Intrinsic Motivation",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4976,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0034",
+          "facet_name": "Desperation",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4974,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0024",
+          "facet_name": "Pure Challenge",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4971,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0254",
+          "facet_name": "Discernment practice hours / week",
+          "category": "cognitive",
+          "polarity": "neutral",
+          "via": "topk",
+          "similarity": 0.4967,
+          "score": 1,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0368",
+          "facet_name": "Comfort with Vulnerability",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.496,
+          "score": 1,
+          "confidence": 0.7
+        },
+        {
+          "facet_id": "F0256",
+          "facet_name": "Courageousness",
+          "category": "behavioral",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4952,
+          "score": 1,
+          "confidence": 0.4
+        },
+        {
+          "facet_id": "F0179",
+          "facet_name": "Depth of Emotional Connections",
+          "category": "emotion",
+          "polarity": "positive",
+          "via": "topk",
+          "similarity": 0.4936,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0019",
+          "facet_name": "Aloofness",
+          "category": "behavioral",
+          "polarity": "negative",
+          "via": "topk",
+          "similarity": 0.4914,
+          "score": 5,
+          "confidence": 0.9
+        },
+        {
+          "facet_id": "F0016",
+          "facet_name": "Compassion Fatigue",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "both",
+          "similarity": 0.4911,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0175",
+          "facet_name": "Depression (DEP)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4784,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0103",
+          "facet_name": "Burnout Symptoms",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4734,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0124",
+          "facet_name": "Martyrdom",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4675,
+          "score": 1,
+          "confidence": 0.5
+        },
+        {
+          "facet_id": "F0199",
+          "facet_name": "Psychological construct: Acculturative Stress score",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4669,
+          "score": 1,
+          "confidence": 0.3
+        },
+        {
+          "facet_id": "F0311",
+          "facet_name": "Religious coping \u2013 Negative",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4662,
+          "score": 1,
+          "confidence": 0.2
+        },
+        {
+          "facet_id": "F0164",
+          "facet_name": "Physical-violence exposure",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4646,
+          "score": 1,
+          "confidence": 0.1
+        },
+        {
+          "facet_id": "F0250",
+          "facet_name": "Harmfulness",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4642,
+          "score": 1,
+          "confidence": 1.0
+        },
+        {
+          "facet_id": "F0202",
+          "facet_name": "Hysteria (Hy)",
+          "category": "safety",
+          "polarity": "negative",
+          "via": "safety_floor",
+          "similarity": 0.4633,
+          "score": 4,
+          "confidence": 0.8
+        },
+        {
+          "facet_id": "F0188",
+          "facet_name": "Psychological construct: Psychological Safety climate",
+          "category": "safety",
+          "polarity": "positive",
+          "via": "safety_floor",
+          "similarity": 0.4633,
+          "score": 1,
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

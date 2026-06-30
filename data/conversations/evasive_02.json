@@ -1,0 +1,23 @@
+{
+  "conversation_id": "evasive_02",
+  "case_type": "evasive",
+  "title": "Vague about finances",
+  "turns": [
+    {
+      "speaker": "Spouse",
+      "text": "Did the credit card bill get paid this month?"
+    },
+    {
+      "speaker": "Other",
+      "text": "It's handled. Mostly. I'll sort the rest, don't worry about it."
+    },
+    {
+      "speaker": "Spouse",
+      "text": "Mostly? What does that mean exactly?"
+    },
+    {
+      "speaker": "Other",
+      "text": "It means it's fine. Can we talk about something else?"
+    }
+  ]
+}

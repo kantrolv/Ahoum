@@ -1,0 +1,19 @@
+{
+  "conversation_id": "polite_06",
+  "case_type": "polite",
+  "title": "Student thanks professor",
+  "turns": [
+    {
+      "speaker": "Student",
+      "text": "Professor, thank you for taking the time to explain that concept after class. It really helped me understand."
+    },
+    {
+      "speaker": "Professor",
+      "text": "You're most welcome. I'm pleased it clarified things for you."
+    },
+    {
+      "speaker": "Student",
+      "text": "It did, immensely. I'm grateful for your patience and guidance this semester."
+    }
+  ]
+}

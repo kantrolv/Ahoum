@@ -1,0 +1,19 @@
+{
+  "conversation_id": "hostile_03",
+  "case_type": "hostile",
+  "title": "Online argument",
+  "turns": [
+    {
+      "speaker": "User1",
+      "text": "Anyone who believes that is brain-dead. Do everyone a favor and stop typing."
+    },
+    {
+      "speaker": "User2",
+      "text": "Wow, real mature. Got any actual argument?"
+    },
+    {
+      "speaker": "User1",
+      "text": "I don't argue with clowns. You're pathetic and everyone here can see it."
+    }
+  ]
+}

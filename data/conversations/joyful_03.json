@@ -1,0 +1,19 @@
+{
+  "conversation_id": "joyful_03",
+  "case_type": "joyful",
+  "title": "Old friends reunite",
+  "turns": [
+    {
+      "speaker": "Nina",
+      "text": "I can't believe it's really you after all these years! You look amazing!"
+    },
+    {
+      "speaker": "Old Friend",
+      "text": "Nina! Come here! I've missed you so much, this is wonderful!"
+    },
+    {
+      "speaker": "Nina",
+      "text": "We have so much to catch up on. My heart is so full right now."
+    }
+  ]
+}

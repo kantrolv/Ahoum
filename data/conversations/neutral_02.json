@@ -1,0 +1,19 @@
+{
+  "conversation_id": "neutral_02",
+  "case_type": "neutral",
+  "title": "Asking directions",
+  "turns": [
+    {
+      "speaker": "Tourist",
+      "text": "Excuse me, which way is the train station from here?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Two blocks straight, then left at the bank. It's on your right."
+    },
+    {
+      "speaker": "Tourist",
+      "text": "Two blocks then left. Got it."
+    }
+  ]
+}

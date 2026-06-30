@@ -1,0 +1,23 @@
+{
+  "conversation_id": "mixed_03",
+  "case_type": "mixed-arc",
+  "title": "Joyful \u2192 bad news \u2192 deflated",
+  "turns": [
+    {
+      "speaker": "Maria",
+      "text": "I'm so excited, I think I'm getting the promotion today, I can feel it!"
+    },
+    {
+      "speaker": "Boss",
+      "text": "Maria, I'm sorry, but the role's been put on hold due to budget cuts."
+    },
+    {
+      "speaker": "Maria",
+      "text": "Oh. I... I really thought this was it. That's a tough hit."
+    },
+    {
+      "speaker": "Maria",
+      "text": "I guess I'll just go back to my desk. Hard to feel anything but flat right now."
+    }
+  ]
+}

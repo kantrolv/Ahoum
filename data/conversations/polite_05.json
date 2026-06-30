@@ -1,0 +1,19 @@
+{
+  "conversation_id": "polite_05",
+  "case_type": "polite",
+  "title": "Neighborly request",
+  "turns": [
+    {
+      "speaker": "Neighbor",
+      "text": "Hi there, I'm sorry to trouble you \u2014 would you mind keeping the music down just a touch after ten? Thank you so much."
+    },
+    {
+      "speaker": "Resident",
+      "text": "Oh, I'm so sorry, I didn't realize it carried. Of course, I'll turn it down right away."
+    },
+    {
+      "speaker": "Neighbor",
+      "text": "That's very kind of you, I really appreciate your understanding."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "conversation_id": "manipulative_01",
+  "case_type": "manipulative",
+  "title": "Guilt-trip for a loan",
+  "turns": [
+    {
+      "speaker": "Rob",
+      "text": "After everything I've done for you, you won't even lend me a little money? I thought we were family."
+    },
+    {
+      "speaker": "Dana",
+      "text": "Rob, I helped you twice already and never got it back."
+    },
+    {
+      "speaker": "Rob",
+      "text": "Wow. So you're keeping score now. I guess I know where I really stand with you."
+    }
+  ]
+}

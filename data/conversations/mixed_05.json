@@ -1,0 +1,23 @@
+{
+  "conversation_id": "mixed_05",
+  "case_type": "mixed-arc",
+  "title": "Neutral \u2192 frustrated \u2192 hostile",
+  "turns": [
+    {
+      "speaker": "Caller",
+      "text": "Hi, I'm calling to check on the status of my refund."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Let me look... it seems the request wasn't submitted on our end."
+    },
+    {
+      "speaker": "Caller",
+      "text": "What? I called twice already. This is getting ridiculous."
+    },
+    {
+      "speaker": "Caller",
+      "text": "Forget it \u2014 you're all incompetent and I'm done wasting my breath on you people."
+    }
+  ]
+}

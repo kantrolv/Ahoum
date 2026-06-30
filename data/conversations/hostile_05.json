@@ -1,0 +1,19 @@
+{
+  "conversation_id": "hostile_05",
+  "case_type": "hostile",
+  "title": "Landlord-tenant dispute",
+  "turns": [
+    {
+      "speaker": "Tenant",
+      "text": "You still haven't fixed the heating and it's freezing. This is unacceptable."
+    },
+    {
+      "speaker": "Landlord",
+      "text": "You're lucky I respond at all. Stop whining and pay your rent on time for once."
+    },
+    {
+      "speaker": "Tenant",
+      "text": "How dare you. You're a slumlord and I'm done being polite about it."
+    }
+  ]
+}

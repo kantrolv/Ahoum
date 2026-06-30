@@ -1,0 +1,23 @@
+{
+  "conversation_id": "evasive_04",
+  "case_type": "evasive",
+  "title": "Deflecting blame at work",
+  "turns": [
+    {
+      "speaker": "Lead",
+      "text": "The deadline was missed. What happened on your end?"
+    },
+    {
+      "speaker": "Dev",
+      "text": "A lot of moving parts, you know. These things are never one person's doing."
+    },
+    {
+      "speaker": "Lead",
+      "text": "But your module was the blocker."
+    },
+    {
+      "speaker": "Dev",
+      "text": "I mean, define 'blocker'. There were dependencies. It's complicated."
+    }
+  ]
+}

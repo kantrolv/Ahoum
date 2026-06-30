@@ -1,0 +1,19 @@
+{
+  "conversation_id": "manipulative_05",
+  "case_type": "manipulative",
+  "title": "Flattery to exploit",
+  "turns": [
+    {
+      "speaker": "Colleague",
+      "text": "You're honestly the smartest person on the team \u2014 nobody writes reports like you. Which is why you should do mine too."
+    },
+    {
+      "speaker": "Coworker",
+      "text": "I'm pretty swamped with my own deadlines."
+    },
+    {
+      "speaker": "Colleague",
+      "text": "But you're so much better at it than me. You wouldn't leave a friend hanging, right? You're too good for that."
+    }
+  ]
+}

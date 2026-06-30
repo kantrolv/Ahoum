@@ -1,0 +1,19 @@
+{
+  "conversation_id": "manipulative_04",
+  "case_type": "manipulative",
+  "title": "Emotional blackmail",
+  "turns": [
+    {
+      "speaker": "Mother",
+      "text": "If you move away for that job, it'll break my heart and my health will get worse. But do what you want."
+    },
+    {
+      "speaker": "Child",
+      "text": "Mom, this is a huge opportunity for me."
+    },
+    {
+      "speaker": "Mother",
+      "text": "Of course, your career matters more than your own mother. I'll just be here, alone, suffering."
+    }
+  ]
+}

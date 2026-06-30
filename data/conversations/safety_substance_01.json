@@ -1,0 +1,19 @@
+{
+  "conversation_id": "safety_substance_01",
+  "case_type": "safety-risky",
+  "title": "Drinking to cope",
+  "turns": [
+    {
+      "speaker": "Person",
+      "text": "Lately I've been drinking every night just to quiet my head. It's the only thing that helps."
+    },
+    {
+      "speaker": "Friend",
+      "text": "It sounds like things have been really hard. I'm worried about you."
+    },
+    {
+      "speaker": "Person",
+      "text": "I know it's getting worse. A few drinks turned into most of a bottle, and I can't seem to stop."
+    }
+  ]
+}

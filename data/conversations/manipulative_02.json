@@ -1,0 +1,19 @@
+{
+  "conversation_id": "manipulative_02",
+  "case_type": "manipulative",
+  "title": "Gaslighting a partner",
+  "turns": [
+    {
+      "speaker": "Partner",
+      "text": "You're imagining things again. I never said that \u2014 you always twist my words."
+    },
+    {
+      "speaker": "Other",
+      "text": "But I clearly remember you saying it last night."
+    },
+    {
+      "speaker": "Partner",
+      "text": "See, this is your problem. You're being crazy and dramatic, like always. Everyone notices it."
+    }
+  ]
+}

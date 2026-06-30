@@ -1,0 +1,23 @@
+{
+  "conversation_id": "mixed_02",
+  "case_type": "mixed-arc",
+  "title": "Hostile \u2192 de-escalated \u2192 apologetic",
+  "turns": [
+    {
+      "speaker": "Customer",
+      "text": "Your service is a joke and you clearly don't care about customers at all!"
+    },
+    {
+      "speaker": "Agent",
+      "text": "I hear you, and I'm sorry this has been so frustrating. Let me personally make it right."
+    },
+    {
+      "speaker": "Customer",
+      "text": "...Fine. I appreciate you actually listening, at least."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Sorry for snapping at you. It's been a rough day and you didn't deserve that."
+    }
+  ]
+}

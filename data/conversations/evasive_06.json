@@ -1,0 +1,23 @@
+{
+  "conversation_id": "evasive_06",
+  "case_type": "evasive",
+  "title": "Non-answer",
+  "turns": [
+    {
+      "speaker": "Reporter",
+      "text": "Will you be cutting the program's funding, yes or no?"
+    },
+    {
+      "speaker": "Official",
+      "text": "What I'd say is that we remain deeply committed to exploring all options on the table."
+    },
+    {
+      "speaker": "Reporter",
+      "text": "That's not a yes or a no."
+    },
+    {
+      "speaker": "Official",
+      "text": "We're focused on outcomes, and I think the public understands our priorities here."
+    }
+  ]
+}

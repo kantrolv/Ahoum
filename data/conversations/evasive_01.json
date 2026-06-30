@@ -1,0 +1,23 @@
+{
+  "conversation_id": "evasive_01",
+  "case_type": "evasive",
+  "title": "Dodging whereabouts",
+  "turns": [
+    {
+      "speaker": "Partner",
+      "text": "Where were you last night? I tried calling a few times."
+    },
+    {
+      "speaker": "Other",
+      "text": "Out. Around. You know how it gets, things come up."
+    },
+    {
+      "speaker": "Partner",
+      "text": "Out where, though?"
+    },
+    {
+      "speaker": "Other",
+      "text": "Does it matter? I'm home now. Let's not make a thing of it."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "conversation_id": "neutral_04",
+  "case_type": "neutral",
+  "title": "Ordering food",
+  "turns": [
+    {
+      "speaker": "Customer",
+      "text": "I'll have the medium soup and a side salad, please."
+    },
+    {
+      "speaker": "Server",
+      "text": "Sure. Any dressing on the salad?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Vinaigrette, thanks. And water to drink."
+    }
+  ]
+}
