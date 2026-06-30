@@ -110,7 +110,9 @@ Living checklist for the Conversation Facet Evaluator. Updated at the end of eac
   - [x] Coverage stats auto-filled + 2 sample matrices (joyful, safety/depression)
   - [x] Local commit (no push, per user) — origin=kantrolv/Ahoum, gh authed
   - **Phase 6 README COMPLETE** ✅ (user pushes manually)
-  - [ ] Then: Streamlit UI (per user sequencing)
+- [x] **Phase 7 (brownie) — Streamlit UI** (`app/streamlit_app.py`): browse scored
+      conversations as a colour-coded turn×facet matrix + live-score a typed turn.
+      Boot-tested (HTTP 200), matrix/styler validated. Run: `streamlit run app/streamlit_app.py`
 - [ ] **Phase 7+ — Brownie:** confidence refinement → Streamlit UI → Docker/compose → deploy
 
 ## How to run (so far)

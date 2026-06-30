@@ -232,6 +232,16 @@ python -m facet_eval.scorer          # live-score a hostile turn (high/low facet
 python -m facet_eval.vectorstore --query "I feel hopeless and exhausted" --k 8
 ```
 
+### Web UI (Streamlit)
+
+```bash
+streamlit run app/streamlit_app.py
+```
+
+- **Browse** a pre-scored conversation as a colour-coded turn × facet matrix, with
+  per-turn detail (score, confidence, category, and `via` provenance).
+- **Live-score** a typed turn through the router (top-K + safety floor) + scorer.
+
 ---
 
 ## Configuration (`src/facet_eval/config.py`)
