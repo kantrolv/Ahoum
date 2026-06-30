@@ -96,7 +96,7 @@ if mode == "Browse scored":
     st.caption("1 = absent … 5 = dominant · blank = facet not routed for that turn")
     df = _matrix_df(result)
     st.dataframe(df.style.map(_color).format("{:.0f}", na_rep=""),
-                 use_container_width=True, height=560)
+                 width="stretch", height=560)
 
     with st.expander("Per-turn detail (sorted by score, with confidence + provenance)"):
         ti = st.slider("turn", 0, result["n_turns"] - 1, 0)
@@ -107,9 +107,11 @@ if mode == "Browse scored":
         st.dataframe(pd.DataFrame([
             {"facet_id": r["facet_id"], "facet": r["facet_name"],
              "category": r["category"], "score": r["score"],
-             "confidence": r["confidence"], "via": r["via"]}
+             "confidence (self-reported)": r["confidence"], "via": r["via"]}
             for r in rows
-        ]), use_container_width=True, height=420)
+        ]), width="stretch", height=420, hide_index=True)
+        st.caption("Confidence is the model's self-report (uncalibrated). Rows are "
+                   "sorted highest-score first.")
 
 
 # --- live mode -----------------------------------------------------------
@@ -128,11 +130,18 @@ else:
             results = score(turn, batch)
         meta = {f["facet_id"]: f for f in batch}
         rows = sorted(results, key=lambda r: (-(r["score"] or 0), -(r["confidence"] or 0)))
-        st.success(f"scored {len(results)} routed facets")
-        st.dataframe(pd.DataFrame([
+        st.success(f"scored {len(results)} routed facets — highest-scoring first")
+        df = pd.DataFrame([
             {"facet_id": r["facet_id"], "facet": r["facet_name"],
              "category": meta[r["facet_id"]]["category"],
-             "via": meta[r["facet_id"]]["via"],
-             "score": r["score"], "confidence": r["confidence"]}
+             "via": meta[r["facet_id"]]["via"], "score": r["score"],
+             "confidence (self-reported)": r["confidence"]}
             for r in rows
-        ]), use_container_width=True, height=520)
+        ])
+        st.markdown("**Top 10 facets**")
+        st.dataframe(df.head(10), width="stretch", hide_index=True)
+        with st.expander(f"Show all {len(df)} routed facets"):
+            st.dataframe(df, width="stretch", height=500, hide_index=True)
+        st.caption("⚠️ Confidence is the model's **self-report and uncalibrated** "
+                   "(varies but skewed high). On a 3B, expect some marginal facets "
+                   "to over-score (4–5); the high-signal facets lead the sorted list.")

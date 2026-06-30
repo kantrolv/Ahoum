@@ -1,0 +1,8 @@
+# Disable Streamlit's module file-watcher: it walks loaded modules, which trips
+# transformers' lazy import into trying to load torchvision (not installed) and
+# can wedge the app on "loading". We don't need hot-reload here.
+[server]
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
